@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Delight</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar">
+        <div class="logo">Cafe Delight</div>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#specials">Specials</a></li>
+          <li><a href="#timeline">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <section id="Welcome" class="hero">
+      <div class="hero-text">
+        <h1>Welcome to Cafe Delight</h1>
+        <p>Your cozy place for coffee and comfort food</p>
+      </div>
+    </section>
+
+    
+    <section id="about" class="section retro-about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="./images/retro-coffee-machine.jpg" alt="Retro Coffee Machine">
+        </div>
+        <div class="about-content">
+          <h2>About Us</h2>
+          <p class="tagline">Where every sip tells a vintage story ☕</p>
+          <p>
+            Welcome to <strong>Cafe Delight</strong>, where the aroma of freshly brewed coffee meets the charm of the good old days.
+            Inspired by retro diners and vintage soul, our cafe is a cozy escape into a world of jukebox tunes, warm wood tones, and classic comfort food.
+            <br><br>
+            Founded with a passion for creating timeless experiences, Cafe Delight is not just a place to eat—it's a vibe. Whether you're sipping a frothy cappuccino, sharing stories over milkshakes, or tapping your feet to 60s jazz, we make every visit a trip down memory lane.
+            <br><br>
+            <blockquote class="retro-quote">"Happiness is a warm mug in a retro booth."</blockquote>
+            <br>
+            From checkerboard floors and neon signs to retro posters and vinyl records, everything at Cafe Delight tells a story. We're proud to serve fresh, made-with-love food using locally sourced ingredients, wrapped in the nostalgic charm of a bygone era.
+            <br><br>
+            Come by, grab a booth, and let the retro rhythm carry you away. This is more than a cafe—this is your time machine to delight.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="menu" class="section retro-menu">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/cappuccino.png" alt="Cappuccino">
+              <h3>Cappuccino</h3>
+            </div>
+            <div class="menu-back">
+              <h3>Cappuccino</h3>
+              <p>A perfect balance of espresso, steamed milk, and velvety foam, topped with a sprinkle of cocoa.</p>
+              <span>₹150</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/chocolate-pastry.png" alt="Chocolate Pastry">
+              <h3>Chocolate Pastry</h3>
+            </div>
+            <div class="menu-back">
+              <h3>Chocolate Pastry</h3>
+              <p>A rich, moist pastry layered with creamy chocolate ganache and topped with dark chocolate flakes.</p>
+              <span>₹190</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/French-fries.png" alt="French Fries">
+              <h3>French Fries</h3>
+            </div>
+            <div class="menu-back">
+              <h3>French Fries</h3>
+              <p>Crispy golden potato fries lightly salted and served with tangy tomato ketchup.</p>
+              <span>₹80</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/latte.png" alt="Latte">
+              <h3>Latte</h3>
+            </div>
+            <div class="menu-back">
+              <h3>Latte</h3>
+              <p>Smooth espresso blended with steamed milk and a light layer of foam.</p>
+              <span>₹140</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/Mocha.png" alt="Mocha">
+              <h3>Mocha</h3>
+            </div>
+            <div class="menu-back">
+              <h3>Mocha</h3>
+              <p>A fusion of espresso, chocolate syrup, and steamed milk topped with whipped cream.</p>
+              <span>₹160</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/Strawberry-milkshake.png" alt="Strawberry MilkShake">
+              <h3>Strawberry MilkShake</h3>
+            </div>
+            <div class="menu-back">
+              <h3>Strawberry MilkShake</h3>
+              <p>Creamy chilled milkshake blended with fresh strawberries and topped with whipped cream.</p>
+              <span>₹110</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/Veg-burger.png" alt="Veg Burger">
+              <h3>Veg Burger</h3>
+            </div>
+            <div class="menu-back">
+              <h3>Veg Burger</h3>
+              <p>Crispy veggie patty with lettuce, tomato, and cheese in a toasted sesame bun.</p>
+              <span>₹120</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/veg-sandwich.png" alt="Veg Sandwich">
+              <h3>Veg Sandwich</h3>
+            </div>
+            <div class="menu-back">
+              <h3>Veg Sandwich</h3>
+              <p>Layered with fresh veggies, cheese, and chutney in grilled multigrain bread.</p>
+              <span>₹100</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="menu-item">
+          <div class="menu-card">
+            <div class="menu-front">
+              <img src="./images/menu-items/Sundae-Icecream.png" alt="Sundae-Icecream">
+              <h3>Sundae Icecream</h3>
+            </div>
+            <div class="menu-back">
+              <h3>Sundae Icecream</h3>
+              <p>A delightful scoop of vanilla ice cream topped with chocolate syrup, nuts, and a cherry.</p>
+              <span>₹130</span>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <section id="specials" class="section dark">
+      <h2>Today's Specials</h2>
+      <p>Don't miss out on our chef's picks of the day!</p>
+  
+      <div class="specials-grid">
+
+        
+        <div class="special-card">
+          <img src="./images/specials/Pizza.png" alt="Pizza">
+          <div class="special-overlay">
+            <h3>Veggie Pizza</h3>
+            <div class="special-details">
+              <p>₹249.00</p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="special-card">
+          <img src="./images/specials/Caramel-Latte.png" alt="Pizza">
+          <div class="special-overlay">
+            <h3>Caramel Latte</h3>
+            <div class="special-details">
+              <p>₹150.00</p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="special-card">
+          <img src="./images/specials/Waffle-Stack.png" alt="Pizza">
+          <div class="special-overlay">
+            <h3>Waffle Stack</h3>
+            <div class="special-details">
+              <p>₹100.00</p>
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="timeline" class="section retro-section">
+      <h2 class="section-title">Our Retro Journey</h2>
+
+      
+      <div class="timeline-entry left">
+        <img src="./images/Gallery/Cafe-1985.png" alt="Cafe in 1985" />
+        <div class="content">
+          <h3>1985 - The Beginning</h3>
+          <p>
+            In a quaint corner of town, Cafe Delight first opens its doors, offering coffee, pastries, and the promise of warm memories.
+          </p>
+        </div>
+      </div>
+
+      
+      <div class="timeline-entry right">
+        <img src="./images/Gallery/Cafe-1995.png" alt="Cafe in 1995" />
+        <div class="content">
+          <h3>1995 - Growing Strong</h3>
+          <p>
+            Our iconic Veggie Pizza and Strawberry Milkshake became customer favorites. We expanded to two more cities.
+          </p>
+        </div>
+      </div>
+
+      
+      <div class="timeline-entry left">
+        <img src="./images/Gallery/Cafe-2005.png" alt="Cafe in 2005" />
+        <div class="content">
+          <h3>2005 - A New Look</h3>
+          <p>
+            We revamped our cafe with a fresh retro vibe, blending nostalgic elements with modern-day comfort.
+          </p>
+        </div>
+      </div>
+
+      
+      <div class="timeline-entry right">
+        <img src="./images/Gallery/Cafe-2015.png" alt="Cafe in 2015" />
+        <div class="content">
+          <h3>2015 - Serving Smiles</h3>
+          <p>
+            With a dedicated team and loyal customers, Cafe Delight became a weekend hangout spot for all foodies!
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="scrapbook-section">
+      <h2 class="section-title">A Day in the Life at Cafe Delight</h2>
+      <div class="scrapbook-grid">
+
+        <div class="scrap-card">
+          <img src="./images/Routine/7.png" alt="Morning Prep">
+          <div class="scrap-caption">
+            <h3>7:00 AM - Morning Prep Begins</h3>
+            <p>Fresh ingredients arrive and the team starts prepping for the day.</p>
+          </div>
+        </div>
+
+        <div class="scrap-card">
+          <img src="./images/Routine/10.30.png" alt="Pastry Time">
+          <div class="scrap-caption">
+            <h3>10:30 AM - Ovens Warmed & Pastries Set</h3>
+            <p>Our bakers prepare delightful croissants and cakes fresh every day.</p>
+          </div>
+        </div>
+
+        <div class="scrap-card">
+          <img src="./images/Routine/1.png" alt="Lunch Rush">
+          <div class="scrap-caption">
+            <h3>1:00 PM - The Rush Hour</h3>
+            <p>It's busy, it's fast - but every dish is served with a smile!</p>
+          </div>
+        </div>
+
+        <div class="scrap-card">
+          <img src="./images/Routine/3.30.png" alt="Afternoon Break">
+          <div class="scrap-caption">
+            <h3>3:30 PM - A Cup with the Crew</h3>
+            <p>Time for a break and a quick espresso with fellow chefs.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section id="contact" class="section dark">
+      <div class="contact-container">
+        
+        <div class="contact-form-wrapper">
+          <h2>Contact Us</h2>
+          <p>📍 NH 47, Salem - Kochi Hwy, Chengapalli<br>📞 98765 43210</p>
+          <form action="" class="contact-form">
+            <input type="text" placeholder="Your Name"/>
+            <input type="email" placeholder="Your Email"/>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+
+        <div class="map-wrapper">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125243.67537196001!2d77.29479253189209!3d11.197633490132592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba90e672eadc395%3A0x9202d96110df0e80!2sCaf%C3%A9%20Coffee%20Day!5e0!3m2!1sen!2sin!4v1749450157866!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <p>&copy; 2025 Cafe Delight | All rights reserved</p>
+    </footer>
+
+  </body>
+</html>
